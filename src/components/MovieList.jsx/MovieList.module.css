@@ -1,0 +1,12 @@
+.filmsList {
+display: flex;
+justify-content: center;
+align-items: stretch;
+flex-wrap: wrap;
+gap: 30px;
+margin-bottom: 20px;
+list-style: none;
+}
+.filmItem {
+  transition: transform .3s;
+}
