@@ -15,9 +15,6 @@ const Navigation = () => {
         <NavLink className={setActiveClass} to='/movies'>
           Movies
         </NavLink>
-        <NavLink to='*' className={setActiveClass}>
-          NotFoundPage
-        </NavLink>
       </nav>
     </header>
   );
