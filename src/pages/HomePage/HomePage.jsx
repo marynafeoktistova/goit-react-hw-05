@@ -15,7 +15,7 @@ const HomePage = () => {
       }
     };
     dataFilms();
-  });
+  }, []);
 
   return (
     <main>
